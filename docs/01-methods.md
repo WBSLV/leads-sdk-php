@@ -19,26 +19,20 @@ The method returns an XML with all fields available for submitting a lead in the
 <headers>
     <automotive_leads>
         <refID>
-        <name>refID</name>
-        <max_length>5</max_length>
-        <length>11</length>
-        <type>3</type>
-        <type_name>INT</type_name>
-        <values></values>
-        <decimals>0</decimals>
-        <IS_NULLABLE>YES</IS_NULLABLE>
+            <name>refID</name>
+            <max_length>5</max_length>
+            <length>11</length>
+            <type>3</type>
+            <type_name>INT</type_name>
+            <values></values>
+            <decimals>0</decimals>
+            <IS_NULLABLE>YES</IS_NULLABLE>
         </refID>
         ...
     </automotive_leads>
-    <automotive_leads_info_company>
-        ...
-    </automotive_leads_info_company>
     <automotive_leads_info_customer>
         ...
     </automotive_leads_info_customer>
-    <automotive_leads_info_vehicle>
-        ...
-    </automotive_leads_info_vehicle>
 </headers>
 ```
 
