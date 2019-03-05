@@ -52,20 +52,47 @@ providerCode | string | To be supplied by LSS administrator, always linked to on
 leadData | string | An XML file
 
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>\n
 <lead>
     <automotive_leads>
-        <refID>ABC-987654</refID>
-        <remarks><![CDATA[<p>Dit is een test!</p>]]></remarks>
+        <refID>DEMO-43904</refID>
+        <source>bmw.nl</source>
+        <channel>website</channel>
+        <campaign>demo</campaign>
+        <request_type>brochure</request_type>
+        <sas>sales</sas>
+        <make>BMW</make>
+        <model>i8 Roadster</model>
+        <new_used>used</new_used>
+        <interest_vehicle_registration_number>71-XSP-1</interest_vehicle_registration_number>
+        <details_url>https://www.bmw.nl/nl/modellen/bmwi/i8-roadster/ontdek/highlights.html</details_url>
+        <levelID>862</levelID>
+        <locationID>4</locationID>
     </automotive_leads>
-    <automotive_leads_info_vehicle>
-        <regno>71-XSP-1</regno>
-    </automotive_leads_info_vehicle>
     <automotive_leads_info_customer>
-        <first_name>Bart</first_name>
-        <surname>Simpson</surname >
+        <title>De heer</title>
+        <initials>A.B.C.</initials>
+        <first_name>Arnie</first_name>
+        <suffix>van</suffix>
+        <surname>Straaten</surname>
+        <language>nl</language>
+        <sex>M</sex>
+        <dob>1985-11-23</dob>
+        <email>arnie@personal.me</email>
+        <bemail>arnie@business.com</bemail>
+        <phone_private>020-7677787</phone_private>
+        <phone_work>020-7888808</phone_work>
+        <mobile>06-98979695</mobile>
+        <fax>020-7888809</fax>
+        <address>Motorkade 18</address>
+        <postcode>1021 JS</postcode>
+        <city>Amsterdam</city>
+        <postbox>Postal Office 1</postbox>
+        <postbox_postcode>1021 JA</postbox_postcode>
+        <postbox_city>Amsterdam</postbox_city>
+        <coname>Websolve B.V.</coname>
+        <jobtitle>CEO</jobtitle>
     </automotive_leads_info_customer>
-    <automotive_leads_info_company />
 </lead>
 ```
 
